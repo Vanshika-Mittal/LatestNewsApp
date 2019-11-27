@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:background="@color/list_item_background">
+
+
+    <TextView
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:background="@color/list_item"
+        android:id="@+id/title_text"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="Day 9 at French Open 2017: What to look forward to" />
+
+    <TextView
+        android:background="@color/list_item"
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:maxLines="3"
+        tools:text="The French Open tournament is all set to step into championship week as the remaining fourth-round matches will be played today. It promises to be yet another day of big exits, with Murray facing" />
+
+</LinearLayout>
